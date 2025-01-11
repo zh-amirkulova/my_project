@@ -1,0 +1,29 @@
+.body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.header {
+    background: aqua;
+    text-align: center;
+    height: 10%;
+}
+
+.left_part {
+    display: inline-block;
+    background: antiquewhite;
+    width: 30%;
+    height: 80%;
+}
+
+.form_regis {
+    display: inline-block;
+    background:aliceblue;
+    width: 70%;
+    height: 80%;
+}
+
+.footer {
+    background: aqua;
+    height: 10%;
+}
