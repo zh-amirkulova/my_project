@@ -1,29 +1,30 @@
 .body {
-    margin: 0;
+    margin: 0px;
     width: 100vw;
     height: 100vh;
 }
 .header {
-    background: aqua;
+    background: rgb(245, 245, 184);
     text-align: center;
     height: 10%;
+    /* margin: 0px; */
 }
 
-.left_part {
-    display: inline-block;
-    background: antiquewhite;
-    width: 30%;
+.content {
+    display: flex;
     height: 80%;
+}
+.left_part {
+    background: rgb(207, 231, 251);
+    width: 30%;
 }
 
 .form_regis {
-    display: inline-block;
     background:aliceblue;
     width: 70%;
-    height: 80%;
 }
 
 .footer {
-    background: aqua;
+    background: rgb(245, 245, 184);
     height: 10%;
 }
